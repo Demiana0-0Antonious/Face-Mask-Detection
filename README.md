@@ -25,8 +25,8 @@ conda activate mask_env
 
 3. Install dependencies:
 pip install -r requirements.txt
-
 ```markdown
+
 ## Usage
 
 ### Gradio
@@ -37,12 +37,11 @@ Open the link shown in the terminal to test the app in your browser.
 ##FastAPI
 ```bash
 uvicorn app_fastapi:app --reload
-Visit http://127.0.0.1:8000 to interact with the API.
+Visit http://127.0.0.1:8000 in your browser.
 
 ##Streamlit
 ```bash
 streamlit run app_streamlit.py
-Open the link shown in the terminal to use the Streamlit interface.
+Open the link in the terminal to test the app.
+Visit http://127.0.0.1:8000 to interact with the API.
 
-```bash
-streamlit run app_streamlit.py
