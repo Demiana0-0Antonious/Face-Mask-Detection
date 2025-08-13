@@ -43,5 +43,4 @@ Visit http://127.0.0.1:8000 in your browser.
 ```bash
 streamlit run app_streamlit.py
 Open the link in the terminal to test the app.
-Visit http://127.0.0.1:8000 to interact with the API.
 
