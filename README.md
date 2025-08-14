@@ -36,11 +36,11 @@ Open the link shown in the terminal to test the app in your browser.
 
 ##FastAPI
 ```bash
-uvicorn app_fastapi:app --reload
+uvicorn api:app --reload   
 Visit http://127.0.0.1:8000 in your browser.
 
 ##Streamlit
 ```bash
-streamlit run app_streamlit.py
+streamlit run stream.py 
 Open the link in the terminal to test the app.
 
